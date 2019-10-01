@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search button",
+        "description": "",
+        "id": "verify-search-input;search-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9780289454,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on home page of apple.com",
+            "match": {
+              "location": "Search.user_on_home_page_of_apple_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1840038164,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for Iphone",
+            "match": {
+              "location": "Search.user_searches_for_Iphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5110995449,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to choose",
+            "match": {
+              "location": "Search.user_should_be_able_to_choose()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertFalse(Assert.java:64)\r\n\tat org.junit.Assert.assertFalse(Assert.java:74)\r\n\tat steps.Search.user_should_see_the_product(Search.java:33)\r\n\tat ✽.User should see the product(C:/Users/Sovet/home/src/test/java/features/serch.feature:8)\r\n",
+              "duration": 254290567,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User should see the product",
+            "match": {
+              "location": "Search.user_should_see_the_product()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Verify search input",
+    "description": "",
+    "id": "verify-search-input",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sovet/home/src/test/java/features/serch.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
